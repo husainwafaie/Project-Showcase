@@ -1,0 +1,80 @@
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+header {
+  background-color: #252526;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #569cd6;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #569cd6;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #252526;
+  border: 1px solid #569cd6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-info {
+  padding: 15px;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  color: #569cd6;
+}
+
+.code-line {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.comment { color: #608b4e; }
+.keyword { color: #569cd6; }
+.string { color: #ce9178; }
+.number { color: #b5cea8; }
