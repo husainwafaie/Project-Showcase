@@ -121,7 +121,7 @@ function App() {
     <div className="App">
       <header>
         <nav>
-          <h1 style={{ color: '#569cd6' }}>Husain Wafaie</h1>
+          <h1 style={{ color: '#569cd6' , fontSize: '25px' }}>Husain Wafaie</h1>
           <ul>
             <li><a href="https://www.github.com/husainwafaie/" target="_blank">github()</a></li>
             <li><a href="https://www.linkedin.com/in/husain-wafaie/" target="_blank">linkedin()</a></li>
@@ -168,6 +168,12 @@ function App() {
           image="/music.jpg"
         />
         <ProjectCard 
+          title="AI Resume Analyzer"
+          description="#Analyzes your resume and provides feedback based on the job you are applying to"
+          technologies={["Python FastAPI", "NLP", "NLTK", "Scikit-learn", "React"]}
+          image="/analyzer.jpg"
+        />
+        <ProjectCard 
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
@@ -175,10 +181,23 @@ function App() {
           projectLink="https://project3.com"
         />
         <ProjectCard 
+          title="Crab Adventure Game"
+          description="#Seaside side scroller game"
+          technologies={["JavaScript", "HTML5", "CSS3", "Firebase", "AWS"]}
+          image="/crab.jpg"
+          projectLink="https://project3.com"
+        />
+        <ProjectCard 
+          title="PathFinder"
+          description="#Visualizing Breadth-first search"
+          technologies={["HTML5", "JavaScript", "CSS"]}
+          image="/pathfinder.jpg"
+        />
+        <ProjectCard 
           title="Project Showcase"
           description="#Showcase of my projects"
           technologies={["React", "Next.js", "Tailwind CSS"]}
-          image="/api/placeholder/300/200"
+          image="/showcase.jpg"
         />
       </section>
     </div>
