@@ -1,38 +1,26 @@
-# Husain Wafaie's Portfolio
+# <h1 align="center"> Husain Wafaie's Project Showcase </h1>
 
-Welcome to the source code for my personal portfolio website. This project showcases my skills, projects, and experience as a Full-Stack Software Engineer.
+Welcome to the source code for my project showcase. This project showcases and includes some of my personal projects and details about each of them. Hope you like them!
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Introduction
+## 📂 Introduction
 
 This portfolio website is built using React and showcases various projects I have worked on. Each project card provides a brief description, the technologies used, and links to the project's GitHub repository and live demo (if available).
 
-## Features
+## 🔮 Features
 
 - **Dynamic Typing Effect**: The hero section features a dynamic typing effect that cycles through different programming languages.
 - **Project Cards**: Each project is displayed as a card with a hover effect that reveals more details.
 - **Responsive Design**: The website is fully responsive and works well on all devices.
 - **Interactive Elements**: Hover effects and animations enhance the user experience.
 
-## Technologies Used
+## 🧰 Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
-- **CSS**: Styling the components.
-- **JavaScript**: Programming language for the web.
-- **HTML**: Markup language for creating web pages.
+- **React**
+- **CSS**
+- **JavaScript**
+- **HTML**
 
-## Getting Started
+## 🎆 Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
@@ -44,7 +32,7 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/husainwafaie/Personal-Website.git
+   git clone https://github.com/husainwafaie/Personal-Showcase.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -55,7 +43,7 @@ Make sure you have Node.js and npm installed on your machine. You can download t
    npm install
    ```
 
-## Available Scripts
+## 👷‍♂️ Available Scripts
 
 In the project directory, you can run:
 
@@ -99,15 +87,15 @@ Here's a reference for the colors used throughout the website:
 | Primary       | ![#1e1e1e](https://via.placeholder.com/10/00008b?text=+) `#1e1e1e` |
 | Secondary     | ![#569cd6](https://via.placeholder.com/10/569cd6?text=+) `#569cd6` |
 | Background        | ![#252526](https://via.placeholder.com/10/252526?text=+) `#252526` |
-| Text          | ![#333333](https://via.placeholder.com/10/333333?text=+) `#333333` |
-| Light Text    | ![#d8d4d4](https://via.placeholder.com/10/d8d4d4?text=+) `#d8d4d4` |
+| Text          | ![#d4d4d4](https://via.placeholder.com/10/d4d4d4?text=+) `#d4d4d4` |
+| Light Text    | ![#f2f1f1](https://via.placeholder.com/10/f2f1f1?text=+) `#f2f1f1` |
 | Secondary Text    | ![#ce9178](https://via.placeholder.com/10/ce9178?text=+) `#ce9178` |
 
-## License
+## 📰 License
 
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
-## Contact
+## 📫 Contact
 
 Husain Wafaie - [husainwafaie@gmail.com](mailto:husainwafaie@gmail.com)
 
