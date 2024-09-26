@@ -131,7 +131,7 @@ function App() {
       </header>
       
       <section className="hero">
-        <img src="/husain_pic.jpg" alt="Husain Wafaie" />
+        <img src={`${process.env.PUBLIC_URL}/husain_pic.jpg`} alt="Husain Wafaie" />
         <h1>Husain Wafaie</h1>
         <div className="hero-title-container">
           <p className="code-line">{displayText}</p>
@@ -143,7 +143,7 @@ function App() {
           title="CanSat"
           description="#Satellite software system"
           technologies={["Python", "C", "Linux", "PyQt5"]}
-          image="/cansat.jpeg"
+          image={`${process.env.PUBLIC_URL}/cansat.jpeg`}
           githubLink="https://github.com/yourusername/project1"
           projectLink="https://project1.com"
         />
@@ -151,53 +151,60 @@ function App() {
           title="JobHunter"
           description="#Web App for finding jobs near you"
           technologies={["Python", "Django", "React", "REST APIs", "GCP"]}
-          image="jobhunter.jpg"
+          image={`${process.env.PUBLIC_URL}/jobhunter.jpg`}
           githubLink="https://github.com/yourusername/project2"
         />
         <ProjectCard 
           title="NewU"
           description="Crypto Trading Platform"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
-          image="/new2.jpg"
+          image={`${process.env.PUBLIC_URL}/new2.jpg`}
           projectLink="https://project3.com"
         />
         <ProjectCard 
           title="SpotAI"
           description="#Mix and explore music with AI"
           technologies={["Python", "Spotify API", "Django", "JavaScript", "AWS"]}
-          image="/music.jpg"
+          image={`${process.env.PUBLIC_URL}/music.jpg`}
         />
         <ProjectCard 
           title="AI Resume Analyzer"
           description="#Analyzes your resume and provides feedback based on the job you are applying to"
           technologies={["Python FastAPI", "NLP", "NLTK", "Scikit-learn", "React"]}
-          image="/analyzer.jpg"
+          image={`${process.env.PUBLIC_URL}/analyzer.jpg`}
         />
         <ProjectCard 
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
-          image="/husain-pic.jpg"
+          image={`${process.env.PUBLIC_URL}/husain-pic.jpg`}
           projectLink="https://project3.com"
         />
         <ProjectCard 
           title="Crab Adventure Game"
           description="#Seaside side scroller game"
           technologies={["JavaScript", "HTML5", "CSS3", "Firebase", "AWS"]}
-          image="/crab.jpg"
+          image={`${process.env.PUBLIC_URL}/crab.jpg`}
           projectLink="https://project3.com"
         />
         <ProjectCard 
           title="PathFinder"
           description="#Visualizing Breadth-first search"
           technologies={["HTML5", "JavaScript", "CSS"]}
-          image="/pathfinder.jpg"
+          image={`${process.env.PUBLIC_URL}/pathfinder.jpg`}
+        />
+        <ProjectCard 
+          title="Predator Simulation"
+          description="#Interactive game of hunters and preys using Tkinter"
+          technologies={["Python", "Tkinter", "Object Oriented Programming", "Classes and Inheritance"]}
+          image={`${process.env.PUBLIC_URL}/simulation.jpg`}
+          githubLink="https://github.com/husainwafaie/Predator-Simulation"
         />
         <ProjectCard 
           title="Project Showcase"
           description="#Showcase of my projects"
           technologies={["React", "Next.js", "Tailwind CSS"]}
-          image="/showcase.jpg"
+          image={`${process.env.PUBLIC_URL}/showcase.jpg`}
         />
       </section>
     </div>
