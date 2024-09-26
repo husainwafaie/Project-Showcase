@@ -178,7 +178,7 @@ function App() {
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
-          image={`${process.env.PUBLIC_URL}/husain-pic.jpg`}
+          image={`${process.env.PUBLIC_URL}/Husain-pic.jpg`}
           githubLink="https://github.com/husainwafaie/Personal-Website"
           projectLink="http://husainwafaie.com/"
         />
