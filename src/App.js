@@ -144,54 +144,59 @@ function App() {
           description="#Satellite software system"
           technologies={["Python", "C", "Linux", "PyQt5"]}
           image={`${process.env.PUBLIC_URL}/cansat.jpeg`}
-          githubLink="https://github.com/yourusername/project1"
-          projectLink="https://project1.com"
+          projectLink="https://ucicansat.github.io/web/"
         />
         <ProjectCard 
           title="JobHunter"
           description="#Web App for finding jobs near you"
           technologies={["Python", "Django", "React", "REST APIs", "GCP"]}
           image={`${process.env.PUBLIC_URL}/jobhunter.jpg`}
-          githubLink="https://github.com/yourusername/project2"
+          githubLink="https://github.com/husainwafaie/jobhunter"
         />
         <ProjectCard 
           title="NewU"
-          description="Crypto Trading Platform"
+          description="#Crypto Trading Platform"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
           image={`${process.env.PUBLIC_URL}/new2.jpg`}
-          projectLink="https://project3.com"
+          githubLink="https://github.com/InscribeX/NewU"
         />
         <ProjectCard 
           title="SpotAI"
           description="#Mix and explore music with AI"
           technologies={["Python", "Spotify API", "Django", "JavaScript", "AWS"]}
           image={`${process.env.PUBLIC_URL}/music.jpg`}
+          githubLink="https://github.com/husainwafaie/Music-Recommender"
         />
         <ProjectCard 
           title="AI Resume Analyzer"
           description="#Analyzes your resume and provides feedback based on the job you are applying to"
           technologies={["Python FastAPI", "NLP", "NLTK", "Scikit-learn", "React"]}
           image={`${process.env.PUBLIC_URL}/analyzer.jpg`}
+          githubLink="https://github.com/husainwafaie/Resume-Analyzer"
         />
         <ProjectCard 
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
           image={`${process.env.PUBLIC_URL}/husain-pic.jpg`}
-          projectLink="https://project3.com"
+          githubLink="https://github.com/husainwafaie/Personal-Website"
+          projectLink="http://husainwafaie.com/"
         />
         <ProjectCard 
           title="Crab Adventure Game"
           description="#Seaside side scroller game"
           technologies={["JavaScript", "HTML5", "CSS3", "Firebase", "AWS"]}
           image={`${process.env.PUBLIC_URL}/crab.jpg`}
-          projectLink="https://project3.com"
+          githubLink="https://github.com/husainwafaie/Crab-Game"
+          projectLink="https://husainwafaie.github.io/Crab-Game/"
         />
         <ProjectCard 
           title="PathFinder"
           description="#Visualizing Breadth-first search"
           technologies={["HTML5", "JavaScript", "CSS"]}
           image={`${process.env.PUBLIC_URL}/pathfinder.jpg`}
+          githubLink="https://github.com/husainwafaie/Pathfinder"
+          projectLink="https://husainwafaie.github.io/Pathfinder/"
         />
         <ProjectCard 
           title="Predator Simulation"
@@ -205,6 +210,8 @@ function App() {
           description="#Showcase of my projects"
           technologies={["React", "Next.js", "Tailwind CSS"]}
           image={`${process.env.PUBLIC_URL}/showcase.jpg`}
+          githubLink="https://github.com/husainwafaie/Project-Showcase"
+          projectLink="https://husainwafaie.github.io/Project-Showcase/"
         />
       </section>
     </div>
