@@ -1,6 +1,59 @@
-# Getting Started with Create React App
+# Husain Wafaie's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the source code for my personal portfolio website. This project showcases my skills, projects, and experience as a Full-Stack Software Engineer.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+This portfolio website is built using React and showcases various projects I have worked on. Each project card provides a brief description, the technologies used, and links to the project's GitHub repository and live demo (if available).
+
+## Features
+
+- **Dynamic Typing Effect**: The hero section features a dynamic typing effect that cycles through different programming languages.
+- **Project Cards**: Each project is displayed as a card with a hover effect that reveals more details.
+- **Responsive Design**: The website is fully responsive and works well on all devices.
+- **Interactive Elements**: Hover effects and animations enhance the user experience.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: Styling the components.
+- **JavaScript**: Programming language for the web.
+- **HTML**: Markup language for creating web pages.
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine. You can download them from [Node.js](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/husainwafaie/Personal-Website.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Personal-Showcase
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
 ## Available Scripts
 
@@ -37,34 +90,24 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  🎨 Color Reference
 
-## Learn More
+Here's a reference for the colors used throughout the website:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Color         | Hex                                                                |
+| ------------- | ------------------------------------------------------------------ |
+| Primary       | ![#1e1e1e](https://via.placeholder.com/10/00008b?text=+) `#1e1e1e` |
+| Secondary     | ![#569cd6](https://via.placeholder.com/10/569cd6?text=+) `#569cd6` |
+| Background        | ![#252526](https://via.placeholder.com/10/252526?text=+) `#252526` |
+| Text          | ![#333333](https://via.placeholder.com/10/333333?text=+) `#333333` |
+| Light Text    | ![#d8d4d4](https://via.placeholder.com/10/d8d4d4?text=+) `#d8d4d4` |
+| Secondary Text    | ![#ce9178](https://via.placeholder.com/10/ce9178?text=+) `#ce9178` |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+Husain Wafaie - [husainwafaie@gmail.com](mailto:husainwafaie@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
