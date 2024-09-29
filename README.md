@@ -97,5 +97,5 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Husain Wafaie - [husainwafaie@gmail.com](mailto:husainwafaie@gmail.com)
+For any questions or to get involved, you can email me here: [husainwafaie@gmail.com](mailto:husainwafaie@gmail.com)
 
