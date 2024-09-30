@@ -3,7 +3,7 @@ import './App.css';
 
 const createMarkup = (htmlString) => ({ __html: htmlString });
 
-const ProjectCard = ({ title, description, technologies, image, githubLink, projectLink }) => {
+const ProjectCard = ({ title, description, technologies, completed, image, githubLink, projectLink }) => {
   const [isHovered, setIsHovered] = useState(false);
   const descriptionRef = useRef(null);
 
@@ -46,7 +46,7 @@ const ProjectCard = ({ title, description, technologies, image, githubLink, proj
           <p className="code-line"><span className="keyword">const</span> project = {'{'}</p>
           <p className="code-line">&nbsp;&nbsp;name: <span className="string">"{title}"</span>,</p>
           <p className="code-line">&nbsp;&nbsp;tech: [<span dangerouslySetInnerHTML={createMarkup(techString)} />],</p>
-          <p className="code-line">&nbsp;&nbsp;completed: <span className="keyword">true</span></p>
+          <p className="code-line">&nbsp;&nbsp;completed: <span className="keyword">{completed}</span></p>
           <p className="code-line">{'}'};</p>
         </div>
         {(githubLink || projectLink) && (
@@ -143,6 +143,7 @@ function App() {
           title="CanSat"
           description="#Satellite software system"
           technologies={["Python", "C", "Linux", "PyQt5"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/cansat.jpeg`}
           projectLink="https://ucicansat.github.io/web/"
         />
@@ -150,6 +151,7 @@ function App() {
           title="JobHunter"
           description="#Web App for finding jobs near you"
           technologies={["Python", "Django", "React", "REST APIs", "GCP"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/jobhunter.jpg`}
           githubLink="https://github.com/husainwafaie/jobhunter"
         />
@@ -157,6 +159,7 @@ function App() {
           title="NewU"
           description="#Crypto Trading Platform"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/new2.jpg`}
           githubLink="https://github.com/InscribeX/NewU"
         />
@@ -164,6 +167,7 @@ function App() {
           title="SpotAI"
           description="#Mix and explore music with AI"
           technologies={["Python", "Spotify API", "Django", "JavaScript", "AWS"]}
+          completed="false"
           image={`${process.env.PUBLIC_URL}/music.jpg`}
           githubLink="https://github.com/husainwafaie/Music-Recommender"
         />
@@ -171,6 +175,7 @@ function App() {
           title="AI Resume Analyzer"
           description="#Analyzes your resume and provides feedback based on the job you are applying to"
           technologies={["Python FastAPI", "NLP", "NLTK", "Scikit-learn", "React"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/analyzer.jpg`}
           githubLink="https://github.com/husainwafaie/Resume-Analyzer"
         />
@@ -178,6 +183,7 @@ function App() {
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/Husain-pic.jpg`}
           githubLink="https://github.com/husainwafaie/Personal-Website"
           projectLink="http://husainwafaie.com/"
@@ -186,6 +192,7 @@ function App() {
           title="Crab Adventure Game"
           description="#Seaside side scroller game"
           technologies={["JavaScript", "HTML5", "CSS3", "Firebase", "AWS"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/crab.jpg`}
           githubLink="https://github.com/husainwafaie/Crab-Game"
           projectLink="https://husainwafaie.github.io/Crab-Game/"
@@ -194,6 +201,7 @@ function App() {
           title="PathFinder"
           description="#Visualizing Breadth-first search"
           technologies={["HTML5", "JavaScript", "CSS"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/pathfinder.jpg`}
           githubLink="https://github.com/husainwafaie/Pathfinder"
           projectLink="https://husainwafaie.github.io/Pathfinder/"
@@ -202,6 +210,7 @@ function App() {
           title="Predator Simulation"
           description="#Interactive game of hunters and preys using Tkinter"
           technologies={["Python", "Tkinter", "Object Oriented Programming", "Classes and Inheritance"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/simulation.jpg`}
           githubLink="https://github.com/husainwafaie/Predator-Simulation"
         />
@@ -209,6 +218,7 @@ function App() {
           title="Project Showcase"
           description="#Showcase of my projects"
           technologies={["React", "Next.js", "Tailwind CSS"]}
+          completed="true"
           image={`${process.env.PUBLIC_URL}/showcase.jpg`}
           githubLink="https://github.com/husainwafaie/Project-Showcase"
           projectLink="https://husainwafaie.github.io/Project-Showcase/"
