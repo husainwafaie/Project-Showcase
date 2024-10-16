@@ -180,6 +180,14 @@ function App() {
           githubLink="https://github.com/husainwafaie/Resume-Analyzer"
         />
         <ProjectCard 
+          title="Premier League Fantasy Stats"
+          description="#An application that allows you to view, analyze, compare PL stats for over 700 players and 20 teams"
+          technologies={["TypeScript", "React", "MongoDB", "Tailwind CSS", "Python FastAPI"]}
+          completed="false"
+          image={`${process.env.PUBLIC_URL}/pl.jpg`}
+          githubLink="https://github.com/husainwafaie/Premier-League-App"
+        />
+        <ProjectCard 
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
