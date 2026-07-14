@@ -139,7 +139,16 @@ function App() {
       </section>
       
       <section id="projects" className="projects">
-        <ProjectCard 
+        <ProjectCard
+          title="Research Vessel Viewer"
+          description="#Interactive 3D research vessel with a procedural underwater world — dive beneath the hull"
+          technologies={["TypeScript", "React", "Three.js", "WebGL Shaders", "Zustand", "WebAudio"]}
+          completed="true"
+          image={`${process.env.PUBLIC_URL}/vessel.svg`}
+          githubLink="https://github.com/husainwafaie/Research-Vessel-Viewer"
+          projectLink="https://research-vessel-viewer.vercel.app/"
+        />
+        <ProjectCard
           title="CanSat"
           description="#Satellite software system"
           technologies={["Python", "C", "Linux", "PyQt5"]}
