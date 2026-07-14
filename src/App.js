@@ -139,7 +139,7 @@ function App() {
       </section>
       
       <section id="projects" className="projects">
-        <ProjectCard 
+        <ProjectCard
           title="CanSat"
           description="#Satellite software system"
           technologies={["Python", "C", "Linux", "PyQt5"]}
@@ -187,7 +187,16 @@ function App() {
           image={`${process.env.PUBLIC_URL}/pl.jpg`}
           githubLink="https://github.com/husainwafaie/Premier-League-App"
         />
-        <ProjectCard 
+        <ProjectCard
+          title="Research Vessel Viewer"
+          description="#Interactive 3D research vessel with a procedural underwater world — dive beneath the hull"
+          technologies={["TypeScript", "React", "Three.js", "WebGL Shaders", "Zustand", "WebAudio"]}
+          completed="true"
+          image={`${process.env.PUBLIC_URL}/vessel-viewer.jpg`}
+          githubLink="https://github.com/husainwafaie/Research-Vessel-Viewer"
+          projectLink="https://research-vessel-viewer.vercel.app/"
+        />
+        <ProjectCard
           title="Personal Website"
           description="#A summary of me"
           technologies={["React", "Node.js", "WebSockets", "Firebase", "AWS"]}
