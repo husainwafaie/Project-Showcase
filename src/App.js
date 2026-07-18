@@ -188,7 +188,7 @@ function App() {
           githubLink="https://github.com/husainwafaie/Premier-League-App"
         />
         <ProjectCard
-          title="Research Vessel Viewer"
+          title="3D Research Vessel Viewer"
           description="#Interactive 3D research vessel with a procedural underwater world — dive beneath the hull"
           technologies={["TypeScript", "React", "Three.js", "WebGL Shaders", "Zustand", "WebAudio"]}
           completed="true"
