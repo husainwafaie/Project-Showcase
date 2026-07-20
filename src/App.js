@@ -181,7 +181,7 @@ function App() {
         />
         <ProjectCard 
           title="Premier League Fantasy Stats"
-          description="#An application that allows you to view, analyze, compare PL stats (for 2023-2024) for over 700 players and 20 teams"
+          description="#An app that allows you to view, analyze, compare PL stats (for 2023-2024) for over 700 players and 20 teams"
           technologies={["TypeScript", "React", "MongoDB", "Tailwind CSS", "Python FastAPI"]}
           completed="false"
           image={`${process.env.PUBLIC_URL}/pl.jpg`}
