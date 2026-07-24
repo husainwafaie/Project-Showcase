@@ -180,7 +180,7 @@ function App() {
           githubLink="https://github.com/husainwafaie/Resume-Analyzer"
         />
         <ProjectCard 
-          title="Premier League Fantasy Stats"
+          title="Premier League Fantasy Analyzer"
           description="#An app that allows you to view, analyze, compare PL stats (for 2023-2024) for over 700 players and 20 teams"
           technologies={["TypeScript", "React", "MongoDB", "Tailwind CSS", "Python FastAPI"]}
           completed="false"
